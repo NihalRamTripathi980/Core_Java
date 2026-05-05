@@ -20,6 +20,13 @@ public class ReferenceDataType {
         System.out.println(s3.equals(s4)); // Checking value
 
 
+        // Array type reference Data Type
+        int [] arr = new int[5];
+        int [] arr2 = {4,5,35,55};
+        int [] [] twoDArray = {{1,2,3},{3,3,2}};
+        int [] [] twoDArray2 = new int[5][4]; // 5 Row and 4 Columns
+        twoDArray2[2][2]=20;
+
     }
 
 }
